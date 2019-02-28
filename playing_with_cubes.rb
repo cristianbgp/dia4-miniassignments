@@ -10,6 +10,5 @@ class Cube
       @side = num
     end
 end
-
 c = Cube.new
 puts c.get_side
