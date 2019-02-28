@@ -1,14 +1,15 @@
 class Cube
-    @side = 0
-    def set_side = (side)
-      @side = side
+  def get_side()    
+    if @side == nil
+      0
+    else
+      @side
     end
-    
-    def get_side
-      @side 
+  end
+    def set_side(num)
+      @side = num
     end
 end
 
 c = Cube.new
-c.set_side = 13
 puts c.get_side
